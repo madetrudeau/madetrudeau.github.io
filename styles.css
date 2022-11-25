@@ -1,0 +1,25 @@
+body {
+    background-color: #F6CAB9;
+    height: 2000px;
+}
+
+#bio-content {
+    display: flex;
+    margin-top: 300px;
+    margin-left: 250px;
+    background-color: #F6CAB9;
+}
+
+.bio-img {
+}
+
+p {
+    font-family: shackleton-wide, serif;
+    font-weight: 100;
+    font-size: 14pt;
+    color: #50571B;
+    padding-left: 10px;
+    padding-right: 250px;
+
+
+}
