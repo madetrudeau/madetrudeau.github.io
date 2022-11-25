@@ -10,10 +10,10 @@ body {
     background-color: #F6CAB9;
 }
 
-
 p {
-    font-family: shackleton-wide, serif;
-    font-weight: 100;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 14pt;
     color: #50571B;
     padding-left: 10px;
