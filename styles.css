@@ -1,12 +1,23 @@
 body {
     background-color: #F6CAB9;
-    height: 2000px;
+    /*height: 2000px;*/
 }
 
-#bio-content {
+#content {
     display: flex;
     margin-top: 300px;
     margin-left: 250px;
+    background-color: #F6CAB9;
+}
+#proj-content {
+    display: flex;
+    /*margin-top: 20px;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 75%;
+    height: 500px;
+    border: 1px solid #50571B;
     background-color: #F6CAB9;
 }
 
@@ -22,6 +33,16 @@ p {
     color: #50571B;
     padding-left: 10px;
     padding-right: 250px;
+}
 
-
+#project-title {
+    margin-top: 250px;
+    margin-left: 13%;
+    margin-right: auto;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18pt;
+    color: #50571B;
+       
 }
