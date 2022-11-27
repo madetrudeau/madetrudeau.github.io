@@ -1,1 +1,4 @@
 secrets.js
+package.json
+package-lock.json
+/bootstrap
