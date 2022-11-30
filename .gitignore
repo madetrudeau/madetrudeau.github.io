@@ -4,3 +4,9 @@ package-lock.json
 bootstrap
 node_modules
 .env
+bustracker.js
+realtimebustracker.html
+eyefollower.html
+eyes.js
+pacmen.html
+pacmen.js
