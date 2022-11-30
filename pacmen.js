@@ -1,3 +1,5 @@
+let name = null;
+
 var pos = 0;
 const pacArray = [
     ['PacMan1.png', 'PacMan2.png'],
@@ -34,7 +36,7 @@ function makePac() {
     let game = document.getElementById('game');
     let newimg = document.createElement('img');
     newimg.style.position = 'absolute';
-    newimg.src = 'img/PacMan1.png';
+    newimg.src = 'PacMan1.png';
     newimg.width = 100;
     newimg.style.left = position.x + 'px';
     console.log('New image left details: ' + newimg.style.left);
@@ -69,7 +71,7 @@ function update() {
 }
 
 function checkCollisions(item) {
-    if (item.position.x  > projBox.width || 
+    if (item.position.x + item.newimg.width > projBox.width || 
         item.position.x + item.velocity.x < projBox.x) {
             item.velocity.x = -item.velocity.x;
             item.newimg.width = item.newimg.width - 20;
@@ -84,3 +86,5 @@ function checkCollisions(item) {
 function makeOne() {
     pacMen.push(makePac()); // add a new PacMan
 }
+
+//end of code

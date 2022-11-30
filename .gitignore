@@ -1,5 +1,6 @@
 secrets.js
 package.json
 package-lock.json
-/bootstrap
-/node_modules
+bootstrap
+node_modules
+.env
